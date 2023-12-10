@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_menu_services,Access to Services Menu,ir_ui_menu,group_servicios,1,0,0,0
+access_services_question,Vendedor access to question models,model_servicios_preguntas,group_vendedor,1,0,0,0
+access_services_question,Administrador access to question models,model_servicios_preguntas,group_administrador,1,1,1,1

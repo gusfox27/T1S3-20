@@ -1,0 +1,11 @@
+<record id="view_gradein_equipment_type_tree" model="ir.ui.view">
+    <field name="name">gradein.equipment.type.tree</field>
+    <field name="model">gradein.equipment.type</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="image"/>
+            <field name="active"/>
+        </tree>
+    </field>
+</record>
